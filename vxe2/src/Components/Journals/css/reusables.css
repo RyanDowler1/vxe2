@@ -1,0 +1,107 @@
+.hidden{display: none !important;}
+/* Lanstad Toasts*/
+
+.arrow-status button i{
+    pointer-events: none;
+}
+
+div.deanta-toast-alert{
+    --top-left-spacing : 61px;
+
+    box-shadow: 0px 1px 7px rgba(32, 37, 42, 0.34);
+    min-height: 40px;
+    height: auto;
+    color: white;
+    position: fixed;
+    top: var(--top-left-spacing);
+    right: 0px;
+    left: var(--top-left-spacing);
+    z-index: 1000;
+    width: calc(100vw - var(--top-left-spacing));
+    padding-right: 1em;
+    padding-left: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+div.deanta-toast-alert.login{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+@media only screen and (max-width: 768px) {
+    div.deanta-toast-alert{
+        width: 100%;
+        left: 0;
+    }
+}
+
+div.deanta-toast-alert > i{
+    margin-right: 1rem;
+}
+
+div.deanta-toast-alert.category-warning{
+    position: relative;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    font-size: 80%;
+    color: var(--dark);
+    box-shadow: none;
+}
+
+div.deanta-toast-alert.category-warning.hidden{
+    position: absolute;
+}
+
+div.deanta-toast-alert.category-warning .deanta-toast-text{
+    margin-left:10px;
+}
+
+div.deanta-toast-alert .deanta-toast-text{
+    margin-bottom:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: inherit;
+}
+
+div.deanta-toast-alert button{
+    background: transparent;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+div.deanta-toast-alert.success{    
+    background-color: var(--success);
+    border-radius: 0 0 0 .25rem;
+    color: white;
+}
+
+div.deanta-toast-alert.warning{
+    background-color: var(--warning);
+    color: var(--dark);
+}
+
+div.deanta-toast-alert.fail{
+    background-color: var(--danger);
+    color: white;
+}
+div.deanta-toast-alert.success button,
+div.deanta-toast-alert.fail button{
+    color: white;
+}
+
+div.deanta-toast-alert > i.hidden{
+    display: none !important;
+}
+
+.link-text {
+    color: var(--primary);
+    font-weight: bold;
+    cursor: pointer;
+}

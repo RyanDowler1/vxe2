@@ -1,0 +1,74 @@
+alt-title {
+    display: none;
+}
+
+/* TOC */
+
+.thumb-pdf {
+    --indentationAmount: 15px;
+}
+
+.thumb-pdf h6 {
+    color: var(--secondary);
+    padding: 0;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.toc-tag,
+.toc-heading {
+    font-size: 12px;
+    color: var(--secondary);
+    font-weight: normal;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.toc-tab > h3,
+.toc-tab > h4 {
+    margin-bottom: 17px;
+}
+
+.head_H1 {
+    font-size: 14px;
+    color: var(--dark);
+    font-weight: bold;
+    margin-left: calc(var(--indentationAmount) * 0);
+}
+.head_H2 {
+    margin-left: calc(var(--indentationAmount) * 1);
+}
+.head_H3 {
+    margin-left: calc(var(--indentationAmount) * 2);
+}
+.head_H4 {
+    margin-left: calc(var(--indentationAmount) * 3);
+}
+.head_H5 {
+    margin-left: calc(var(--indentationAmount) * 4);
+}
+.head_H6 {
+    margin-left: calc(var(--indentationAmount) * 5);
+}
+
+/*
+Existing Styles
+*/
+
+h3.toc-name:hover,
+h2.toc-title:hover,
+h3.toc-tag:hover,
+h4.toc-heading:hover,
+.toc-tab p:hover {
+    color: var(--primary);
+}
+
+h3.toc-name,
+h2.toc-title,
+h3.toc-tag,
+h4.toc-heading,
+.toc-tab p {
+    cursor: pointer;
+}

@@ -1,0 +1,2703 @@
+footnote {
+  text-indent: 11pt;
+  display: block;
+  font-size: 10.5pt;
+}
+
+title-group > article-title {
+  margin-top: 35px;
+  font-size: 25px;
+  margin-bottom: -19px;
+  font-weight: bold;
+}
+
+minitoc {
+  max-width: 40em;
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none;
+}
+
+minitoc > para {
+  overflow: hidden;
+}
+
+minitoc > para1 {
+  overflow: hidden;
+  font-size: 11pt;
+  display: block;
+  text-indent: 11pt;
+}
+
+minitoc > para1:before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content: '. . . . . . . . . . . . . . . . . . . . '
+    '. . . . . . . . . . . . . . . . . . . . '
+    '. . . . . . . . . . . . . . . . . . . . '
+    '. . . . . . . . . . . . . . . . . . . . ';
+}
+
+minitoc > para:before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content: '. . . . . . . . . . . . . . . . . . . . '
+    '. . . . . . . . . . . . . . . . . . . . '
+    '. . . . . . . . . . . . . . . . . . . . '
+    '. . . . . . . . . . . . . . . . . . . . ';
+}
+
+minitoc span1 {
+  padding-right: 0.33em;
+  background: white;
+  overflow: hidden;
+}
+
+minitoc span1 + span2 {
+  float: right;
+  padding-left: 0.33em;
+  background: white;
+}
+
+chapter ol {
+  font-size: 11pt;
+}
+
+chapter ul {
+  font-size: 11pt;
+}
+
+footnote para {
+  display: inline !important;
+}
+
+footnote footnoteno {
+  display: inline !important;
+  font-size: 9pt;
+}
+
+footnote footnoteno:after {
+  content: '.\A';
+  display: inline !important;
+  font-size: 9pt;
+}
+
+#rotate {
+  width: 571pt;
+  margin-top: 125pt;
+  margin-bottom: 0pt;
+  margin-left: -90pt;
+  margin-right: 0pt;
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)';
+}
+
+landscapePageOut::before {
+  margin-top: 51pt;
+  margin-bottom: 13pt;
+  content: ' ';
+  white-space: pre;
+  display: block;
+  background-color: #c0c0c0;
+  margin-right: -83px;
+  margin-left: -82px;
+}
+
+landscapePage pageno::before {
+  margin-top: 0pt !important;
+  margin-bottom: 0pt !important;
+  content: '' !important;
+  display: none !important;
+  background-color: #000 !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+landscapePage pagenor::before {
+  margin-top: 0pt !important;
+  margin-bottom: 0pt !important;
+  content: '' !important;
+  display: none !important;
+  background-color: #000 !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+landscapePage table {
+  background-color: white;
+  background-size: 379pt;
+  margin-bottom: 272pt;
+}
+
+landscapePage rh,
+landscapePage lh {
+  margin-top: -14pt;
+  text-align: right;
+  margin-right: 47pt;
+  font-style: italic;
+}
+
+landscapePage pageno {
+  margin-right: 30pt;
+  margin-top: 40pt;
+}
+
+landscapePage pagenor {
+  margin-right: 45pt;
+  margin-top: 40pt;
+}
+
+landscapePage paraChange {
+  font-size: 10.5pt;
+  display: block;
+  text-indent: 11pt;
+}
+
+landscapePage {
+  margin-bottom: -202pt;
+  display: table-caption;
+  transform: rotate(90deg);
+  background: white;
+  background-color: white;
+  margin-top: -157pt;
+  margin-top: -151pt;
+  width: 400pt;
+  margin-left: -42px;
+  height: 674pt;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)';
+  /* IE8 */
+}
+
+pageno {
+  display: inline;
+  text-align: right;
+  font-size: 11pt;
+  margin-top: 15pt;
+  font-style: italic;
+}
+
+pagenor {
+  display: block;
+  text-align: right;
+  font-size: 11pt;
+  margin-top: 15pt;
+  font-style: italic;
+}
+
+pagenob {
+  display: block;
+  text-align: right;
+  font-size: 11pt;
+  margin-top: 15pt;
+  margin-bottom: -20pt;
+  font-style: italic;
+}
+
+lh {
+  display: block;
+  text-align: right;
+  font-size: 11pt;
+  margin-top: -12pt;
+  font-style: italic;
+  margin-bottom: 17pt;
+}
+
+rh {
+  display: block;
+  text-align: left;
+  font-size: 11pt;
+  margin-top: -12pt;
+  font-style: italic;
+  margin-bottom: 17pt;
+}
+
+rh:before {
+  content: '     •  ';
+  white-space: pre;
+}
+
+lh:after {
+  content: '  •     ';
+  white-space: pre;
+}
+
+pageno::before {
+  margin-top: 62pt;
+  margin-bottom: 51pt;
+  content: ' ';
+  white-space: pre;
+  display: block;
+  background-color: #c0c0c0;
+  margin-right: -83px;
+  margin-left: -82px;
+}
+
+pagenor::before {
+  margin-top: 64pt;
+  margin-bottom: 51pt;
+  content: ' ';
+  white-space: pre;
+  display: block;
+  background-color: #c0c0c0;
+  margin-right: -83px;
+  margin-left: -82px;
+}
+
+equation {
+  font-size: 10pt !important;
+  display: block;
+  margin-bottom: 12pt;
+  margin-top: 12pt;
+  text-align: center;
+  word-spacing: -1.1pt !important;
+}
+
+equation > caption1 {
+  font-size: 22px;
+  float: right;
+}
+
+mtr mi {
+  font-style: italic !important;
+}
+
+msub mi:last-child {
+  vertical-align: sub;
+}
+
+msup mn:last-child {
+  vertical-align: super;
+}
+
+annotation {
+  display: none;
+}
+
+chapter > label1 {
+  font-size: 23pt;
+  text-align: left;
+  display: block;
+  margin-bottom: 10pt;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.05pt;
+  text-align: center;
+}
+
+article > title1 {
+  font-size: 20pt;
+  text-align: left;
+  display: block;
+  margin-bottom: 5pt;
+  font-weight: normal;
+  margin-top: 0pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+minitoc title1 {
+  font-size: 12pt;
+  text-align: left;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 18pt;
+  margin-bottom: 11pt;
+}
+
+minitoc para {
+  font-size: 11pt;
+  text-align: left;
+  display: block;
+  margin-bottom: 2pt;
+  text-indent: 0pt !important;
+  font-weight: normal;
+}
+
+info::before {
+  width: 90pt;
+  margin-top: 0pt;
+  margin-bottom: 3pt;
+  white-space: pre;
+  border-top: solid;
+  display: block;
+  border-width: 1pt;
+}
+
+abstract,
+keywordset {
+  display: none;
+}
+
+info {
+  display: block;
+  margin-top: 0pt;
+  margin-bottom: 22pt;
+}
+
+book info address {
+  display: inline;
+  font-size: 9pt;
+  text-align: left;
+  font-style: italic;
+}
+
+blockquote {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 16px;
+  -webkit-margin-end: 40px;
+  font-size: 10pt;
+}
+
+blockquote + para,
+ul + para,
+ol + para {
+  text-indent: 0pt !important;
+}
+
+info author:after {
+  font-size: 13pt;
+  text-align: left;
+  display: inline;
+  margin-bottom: 63pt;
+  margin-top: -5pt;
+  font-style: italic;
+  content: ', ';
+}
+
+info author:last-of-type:after {
+  content: none !important;
+  white-space: pre;
+}
+
+info author {
+  font-size: 13pt;
+  text-align: left;
+  display: inline;
+  margin-bottom: 63pt;
+  margin-top: -5pt;
+  font-style: italic;
+}
+
+bibliography > title1 {
+  font-size: 12pt;
+  margin-top: 36pt;
+  margin-bottom: 13pt;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+bibliography bibliomixed {
+  font-size: 10pt;
+  display: block;
+  text-indent: 11pt;
+  font-size: 9pt;
+  font-weight: normal;
+}
+
+bibliomixed title1,
+bibliomixed address,
+bibliomixed publishername,
+bibliomixed link1,
+bibliomixed pubdate,
+bibliomixed {
+  font-size: 10pt;
+  display: initial;
+  text-indent: 11pt;
+  font-size: 9pt;
+  font-weight: normal;
+}
+
+bibliomixed {
+  font-size: 10pt;
+  display: initial;
+  text-indent: 11pt;
+  font-size: 9pt;
+  font-weight: normal;
+}
+
+article span {
+  font-size: inherit;
+}
+
+italic span {
+  font-size: 13px;
+}
+
+aff {
+  display: block;
+  margin-top: 12pt;
+  font-size: 10pt;
+}
+
+abstract1 {
+  display: block;
+  margin-top: 15pt;
+}
+
+kwd-group {
+  display: block;
+  margin-top: 6pt;
+  margin-bottom: 8pt;
+  font-size: 10pt;
+}
+
+pp1 span {
+  font-size: 11pt !important;
+}
+
+article > pp1 > span {
+  font-size: 11pt !important;
+}
+
+article pp1 {
+  font-size: 12pt;
+  display: block;
+  text-indent: 0pt;
+  margin-top: 4pt;
+  line-height: 2.3;
+}
+
+article para[role~='break'] {
+  text-align-last: justify;
+}
+
+article para[role~='cont'] {
+  text-indent: 0pt !important;
+}
+
+section1 para:first-of-type {
+  text-indent: 0pt;
+}
+
+chapter > para:first-of-type {
+  text-indent: 0pt;
+  margin-bottom: 4pt;
+}
+
+li para {
+  text-indent: 0pt;
+  display: inline;
+  font-size: 11pt;
+  display: block;
+}
+
+chapter li ol {
+  margin: 0em 0 !important;
+  margin-left: -22pt !important;
+}
+
+chapter li ul {
+  margin: 0em 0 !important;
+}
+
+[role~='italic'] {
+  font-style: italic;
+}
+
+[role~='bold'] {
+  font-weight: bold;
+}
+
+[role~='sub'] {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+[role~='super'] {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+chapter,
+book {
+  width: 346pt !important;
+  padding: 71pt 61pt 71pt 61pt;
+  -webkit-text-stroke-width: 0.0053pt;
+  word-spacing: 0.09pt;
+  text-align: justify;
+}
+
+section1[role~='H1'] title1 {
+}
+
+sec > title1 {
+  font-size: 12pt;
+  margin-top: 1pt;
+  margin-bottom: 15pt;
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left !important;
+}
+
+sec > sec > title1 {
+  margin-top: 25pt;
+}
+
+sec > sec > sec > title1 {
+  font-size: 11pt;
+  font-weight: normal;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt !important;
+  margin-right: 0pt !important;
+  font-style: italic;
+}
+
+sec[sec-type='H1'] > title1 {
+  font-size: 12pt;
+  margin-top: 12pt;
+  margin-bottom: 15pt;
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left !important;
+}
+
+sec[sec-type='H2'] > title1 {
+  font-size: 11pt;
+}
+
+sec[sec-type='H3'] > title1 {
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt;
+  margin-right: 0pt !important;
+  font-style: italic;
+}
+
+sec[sec-type='H4'] > title1 {
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt;
+  margin-right: 0pt !important;
+}
+
+ack title1 {
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt !important;
+  margin-right: 0pt !important;
+}
+
+article[role='JME'] sec[sec-type='H1'] > title1 {
+  font-size: 12pt;
+  margin-top: 12pt;
+  margin-bottom: 15pt;
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left !important;
+  color: #6f2f6e;
+}
+
+article[role='JME'] sec[sec-type='H2'] > title1 {
+  font-size: 11pt;
+  display: block;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 15pt;
+  font-weight: bold;
+  text-transform: none;
+  text-indent: -20pt;
+  margin-left: 20pt;
+  margin-right: 0pt;
+  color: #6f2f6e;
+}
+
+article[role='JME'] sec[sec-type='H3'] > title1 {
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt !important;
+  margin-right: 0pt !important;
+  font-style: italic;
+  color: #6f2f6e;
+}
+
+article[role='ECC'] sec[sec-type='H1'] > title1 {
+  font-size: 12pt;
+  margin-top: 12pt;
+  margin-bottom: 15pt;
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left !important;
+  color: rgba(25, 101, 116, 1);
+}
+
+article[role='ECC'] sec[sec-type='H2'] > title1 {
+  font-size: 11pt;
+  display: block;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 15pt;
+  font-weight: bold;
+  text-transform: none;
+  text-indent: -20pt;
+  margin-left: 20pt;
+  margin-right: 0pt;
+  color: rgba(25, 101, 116, 1);
+}
+
+article[role='ECC'] sec[sec-type='H3'] > title1 {
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt !important;
+  margin-right: 0pt !important;
+  font-style: italic;
+  color: rgba(25, 101, 116, 1);
+}
+
+article[role='ECC'] sec[sec-type='H4'] > title1 {
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt !important;
+  margin-right: 0pt !important;
+}
+
+article[role='VB'] sec[sec-type='H1'] > title1 {
+  font-size: 12pt;
+  margin-top: 12pt;
+  margin-bottom: 15pt;
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left !important;
+  color: rgba(25, 101, 116, 1);
+}
+
+article[role='VB'] sec[sec-type='H2'] > title1 {
+  font-size: 11pt;
+  display: block;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 15pt;
+  font-weight: bold;
+  text-transform: none;
+  text-indent: -20pt;
+  margin-left: 20pt;
+  margin-right: 0pt;
+  color: rgba(25, 101, 116, 1);
+}
+
+article[role='VB'] sec[sec-type='H3'] > title1 {
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt !important;
+  margin-right: 0pt !important;
+  font-style: italic;
+  color: rgba(25, 101, 116, 1);
+}
+
+article[role='VB'] sec[sec-type='H4'] > title1 {
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt !important;
+  margin-right: 0pt !important;
+}
+
+article[role='JOE'] sec[sec-type='H1'] > title1 {
+  font-size: 17pt;
+  margin-top: 12pt;
+  margin-bottom: 15pt;
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left !important;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+article[role='JOE'] sec[sec-type='H2'] > title1 {
+  font-size: 13pt;
+  display: block;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 15pt;
+  font-weight: bold;
+  text-transform: none;
+  text-indent: -20pt;
+  margin-left: 20pt;
+  margin-right: 0pt;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+article[role='JOE'] sec[sec-type='H3'] > title1 {
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt;
+  margin-right: 0pt !important;
+  font-style: italic;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+article[role='JOE'] sec[sec-type='H4'] > title1 {
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt;
+  margin-right: 0pt !important;
+  font-style: italic;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+article[role='ERC'] sec[sec-type='H1'] > title1 {
+  font-size: 12pt;
+  margin-top: 12pt;
+  margin-bottom: 15pt;
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left !important;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+article[role='ERC'] sec[sec-type='H2'] > title1 {
+  font-size: 11pt;
+  display: block;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 15pt;
+  font-weight: bold;
+  text-transform: none;
+  text-indent: -20pt;
+  margin-left: 20pt;
+  margin-right: 0pt;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+article[role='ERC'] sec[sec-type='H3'] > title1 {
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt;
+  margin-right: 0pt !important;
+  font-style: italic;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+article[role='ERC'] sec[sec-type='H4'] > title1 {
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt;
+  margin-right: 0pt !important;
+  font-style: italic;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+article[role='JOE'] sec > h1 {
+  font-size: 12pt;
+  margin-top: 12pt;
+  margin-bottom: 15pt;
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left !important;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+article[role='JOE'] sec > h2 {
+  font-size: 11pt;
+  display: block;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 15pt;
+  font-weight: bold;
+  text-transform: none;
+  text-indent: -20pt;
+  margin-left: 20pt;
+  margin-right: 0pt;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+article[role='JOE'] sec > h3 {
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt !important;
+  margin-right: 0pt !important;
+  font-style: italic;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+article[role='JOE'] sec > h4 {
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 18px;
+  font-style: normal;
+  text-transform: none;
+  text-indent: -31pt;
+  margin-left: 33pt !important;
+  margin-right: 0pt !important;
+  font-style: italic;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+jou[role='VB'] {
+  display: block;
+  background-color: rgba(25, 101, 116, 1);
+  margin-left: -58px;
+  margin-right: auto;
+}
+
+jou[role='ERP'] {
+  display: block;
+  background-color: rgb(52, 104, 107);
+  margin-left: -57px;
+  margin-right: auto;
+}
+
+jou[role='JME'] {
+  display: block;
+  background-color: #6f2f6e;
+  margin-left: -57px;
+  margin-right: auto;
+}
+
+jou[role='EJE'] {
+  display: block;
+  background-color: rgba(12, 107, 197, 1);
+  margin-left: -58px;
+  margin-right: auto;
+}
+
+jou[role='REP'] {
+  display: block;
+  background-color: rgba(12, 107, 197, 1);
+  margin-left: -58px;
+  margin-right: auto;
+}
+
+jou[role='ECC'] {
+  display: block;
+  background-color: rgba(25, 101, 116, 1);
+  margin-left: -58px;
+  margin-right: auto;
+}
+
+jou[role='JOE'] {
+  display: block;
+  background-color: rgba(0, 5, 117, 0.8);
+  margin-left: -58px;
+  margin-right: auto;
+}
+
+jou[role='ERC'] {
+  display: block;
+  background-color: rgba(0, 5, 117, 0.8);
+  margin-left: -58px;
+  margin-right: auto;
+}
+
+jou[role='EDM'] {
+  display: block;
+  background-color: rgba(117, 0, 64, 0.8);
+  margin-left: -58px;
+  margin-right: auto;
+}
+
+article-type {
+  display: block;
+  font-style: italic;
+  font-size: 19pt;
+  font-weight: bold;
+  margin-top: 6pt;
+}
+
+article[role='ERP'] > front > jou > name1 * {
+  display: inline;
+  margin-left: 0px;
+  border: 1px solid #fdfdfd;
+  width: 20px;
+  font-size: 37px;
+  text-align: left !important;
+  padding: 31px 51px 58px 62px;
+  color: white;
+}
+
+article[role='REP'] > front > jou > name1 * {
+  display: inline;
+  margin-left: 0px;
+  border: 1px solid #fdfdfd;
+  width: 20px;
+  font-size: 37px;
+  text-align: left !important;
+  padding: 31px 51px 58px 62px;
+  color: white;
+}
+
+article[role='EJE'] > front > jou > name1 * {
+  display: inline;
+  margin-left: 0px;
+  border: 1px solid #fdfdfd;
+  width: 20px;
+  font-size: 37px;
+  text-align: left !important;
+  padding: 31px 51px 58px 62px;
+  color: white;
+}
+
+article[role='ECC'] > front > jou > name1 * {
+  display: inline;
+  margin-left: 0px;
+  border: 1px solid #fdfdfd;
+  width: 20px;
+  font-size: 37px;
+  text-align: left !important;
+  padding: 31px 173px 36px 62px;
+  color: white;
+}
+
+article[role='VB'] > front > jou > name1 * {
+  display: inline;
+  margin-left: 0px;
+  border: 1px solid #fdfdfd;
+  width: 20px;
+  font-size: 37px;
+  text-align: left !important;
+  padding: 31px 173px 36px 62px;
+  color: white;
+}
+
+article[role='JOE'] > front > jou > name1 * {
+  display: inline;
+  margin-left: 0px;
+  width: 20px;
+  font-size: 37px;
+  text-align: left !important;
+  padding: 31px 140px 58px 62px;
+  color: white;
+}
+
+article[role='ERC'] > front > jou > name1 * {
+  display: inline;
+  margin-left: 0px;
+  border: 1px solid #fdfdfd;
+  width: 20px;
+  font-size: 37px;
+  text-align: left !important;
+  padding: 31px 140px 58px 62px;
+  color: white;
+}
+
+jou[role='ERP'] > name1 {
+  font-size: 50pt;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  color: white;
+  margin-top: -10px;
+  height: 191px;
+  padding-top: 28pt;
+}
+
+jou[role='REP'] > name1 {
+  font-size: 50pt;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  color: white;
+  margin-top: -10px;
+  height: 191px;
+  padding-top: 28pt;
+}
+
+jou[role='ECC'] > name1 {
+  font-size: 50pt;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  color: white;
+  margin-top: -10px;
+  height: 191px;
+  padding-top: 30pt;
+}
+
+jou[role='VB'] > name1 {
+  font-size: 50pt;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  color: white;
+  margin-top: -10px;
+  height: 191px;
+  padding-top: 30pt;
+}
+
+jou[role='EDM'] > name1 {
+  font-size: 50pt;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  color: white;
+  margin-top: -10px;
+  height: 191px;
+}
+
+jou[role='JOE'] > name1 {
+  font-size: 50pt;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  color: white;
+  margin-top: -10px;
+  height: 191px;
+  padding-top: 30pt;
+}
+
+jou[role='ERC'] > name1 {
+  font-size: 50pt;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  color: white;
+  margin-top: -10px;
+  height: 191px;
+  padding-top: 30pt;
+}
+
+jou[role='EJE'] > name1 {
+  font-size: 50pt;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  color: white;
+  margin-top: -10px;
+  height: 191px;
+  padding-top: 30pt;
+}
+
+jou[role='JME'] > name1 {
+  font-size: 50pt;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  color: white;
+  margin-top: -10px;
+  height: 191px;
+  padding-top: 27pt;
+}
+
+ref-list > title1 {
+  font-size: 12pt;
+  display: block;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 5pt;
+  margin-top: 0pt;
+  font-weight: bold;
+  text-transform: none;
+  text-indent: -20pt;
+  margin-left: 20pt;
+  margin-right: 0pt;
+}
+
+article[role='ECC'] ref-list > title1 {
+  font-size: 12pt;
+  display: block;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 5pt;
+  margin-top: 0pt;
+  font-weight: bold;
+  text-transform: none;
+  text-indent: -20pt;
+  margin-left: 20pt;
+  margin-right: 0pt;
+  color: rgba(25, 101, 116, 1);
+}
+
+article[role='VB'] ref-list > title1 {
+  font-size: 12pt;
+  display: block;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 5pt;
+  margin-top: 0pt;
+  font-weight: bold;
+  text-transform: none;
+  text-indent: -20pt;
+  margin-left: 20pt;
+  margin-right: 0pt;
+  color: rgba(25, 101, 116, 1);
+}
+
+article[role='JME'] ref-list > title1 {
+  font-size: 12pt;
+  display: block;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 5pt;
+  margin-top: 0pt;
+  font-weight: bold;
+  text-transform: none;
+  text-indent: -20pt;
+  margin-left: 20pt;
+  margin-right: 0pt;
+  color: #6f2f6e;
+}
+
+article[role='JOE'] ref-list > title1 {
+  font-size: 12pt;
+  display: block;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 5pt;
+  margin-top: 0pt;
+  font-weight: bold;
+  text-transform: none;
+  text-indent: -20pt;
+  margin-left: 20pt;
+  margin-right: 0pt;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+article[role='ERC'] ref-list > title1 {
+  font-size: 12pt;
+  display: block;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 5pt;
+  margin-top: 0pt;
+  font-weight: bold;
+  text-transform: none;
+  text-indent: -20pt;
+  margin-left: 20pt;
+  margin-right: 0pt;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+article[role='REP'] ref label1 {
+  display: none;
+}
+
+article[role='JME'] ref label1 {
+  display: none;
+}
+
+article[role='JOE'] ref label1 {
+  display: none;
+}
+
+article[role='ERC'] ref label1 {
+  display: none;
+}
+
+fig > label1 {
+  font-size: 11pt;
+  display: inline;
+}
+
+fig {
+  display: block;
+  margin-top: 15pt;
+}
+
+p fig {
+  padding: 0px 0px;
+}
+
+fig > img {
+  width: 75%;
+  display: block;
+  margin: 10px auto;
+}
+
+figsource {
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+figure1 > para {
+  font-size: 9pt;
+  display: block;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 5pt;
+  margin-top: 2pt;
+  font-style: normal;
+  word-spacing: -0.91pt;
+  text-transform: none;
+}
+
+paraChange title1 {
+  font-size: 9pt;
+  display: inline;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 5pt;
+  margin-top: 12pt;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: none;
+  margin-left: 13pt;
+}
+
+superscript {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+subscript {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+para > title1 {
+  font-size: 9pt;
+  display: inline;
+  text-align: left;
+  padding: 0pt !important;
+  margin-top: 12pt;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: none;
+  margin-bottom: 1pt !important;
+  margin-left: 0pt !important;
+  text-indent: 0pt !important;
+}
+
+fig > label1:after {
+  content: '  ';
+  white-space: pre;
+}
+
+fig > caption1 > p1 {
+  font-size: 11pt;
+  display: inline;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 5pt;
+  margin-top: 12pt;
+  font-style: normal;
+  text-transform: none;
+  margin-left: 2pt;
+  line-height: 2.3;
+}
+
+figure1 > mediaobject {
+  text-align: center;
+  margin-left: -12pt;
+  margin-top: 15px;
+  margin-bottom: 5pt;
+  display: block;
+}
+
+figure1 {
+  display: block;
+  margin-bottom: 15pt;
+  text-indent: 0pt;
+}
+
+para label1::after {
+  content: '   ';
+  white-space: pre;
+}
+
+section1 > para > title1 {
+  font-size: 9pt;
+  display: block;
+  text-align: left;
+  padding: 0pt !important;
+  margin-bottom: 15pt;
+  margin-top: 3pt;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: none;
+}
+
+para > link1 {
+  margin-bottom: 15pt;
+}
+
+table > thead > tr > td {
+  padding-left: 2pt;
+  text-align: left;
+  font-size: 9pt;
+  border: 0px;
+  border-collapse: collapse;
+  border-bottom: 1.5px solid #000 !important;
+}
+
+table > thead > tr > td > tp {
+  font-weight: bold;
+  padding-left: 2pt;
+  text-align: left;
+  font-size: 9pt;
+  border: 0px;
+  border-collapse: collapse;
+  font-weight: bold;
+}
+
+article table > tbody > tr > td {
+  font-size: 9pt;
+  font-style: normal;
+  border: 0px;
+  border-collapse: collapse;
+  padding-left: 5pt;
+  text-align: left;
+}
+
+chapter imageobject > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+article[role='EJE'] table > thead:first-child tr {
+  border-collapse: collapse;
+  border-bottom: 2.5px solid rgba(12, 107, 197, 1);
+  border-top: 5.5px solid rgba(12, 107, 197, 1);
+}
+
+article[role='EDM'] table > thead:first-child tr {
+  border-collapse: collapse;
+  border-bottom: 2.5px solid rgba(117, 0, 64, 0.8);
+  border-top: 5.5px solid rgba(117, 0, 64, 0.8);
+}
+
+article[role='ERP'] table > thead:first-child tr {
+  border-collapse: collapse;
+  border-bottom: 2.5px solid rgb(52, 104, 107);
+  border-top: 5.5px solid rgb(52, 104, 107);
+}
+
+article[role='JME'] table > thead:first-child tr {
+  border-collapse: collapse;
+  border-bottom: 2.5px solid rgba(111, 47, 110, 1);
+  border-top: 5.5px solid rgba(111, 47, 110, 1);
+}
+
+article[role='ECC'] table > thead:first-child tr {
+  border-collapse: collapse;
+  border-bottom: 2.5px solid rgba(25, 101, 116, 1);
+  border-top: 5.5px solid rgba(25, 101, 116, 1);
+}
+
+article[role='VB'] table > thead:first-child tr {
+  border-collapse: collapse;
+  border-bottom: 2.5px solid rgba(25, 101, 116, 1);
+  border-top: 5.5px solid rgba(25, 101, 116, 1);
+}
+
+article[role='JOE'] table > thead:first-child tr {
+  border-collapse: collapse;
+  border-bottom: 2.5px solid rgba(0, 5, 117, 0.8);
+  border-top: 5.5px solid rgba(0, 5, 117, 0.8);
+}
+
+article[role='ERC'] table > thead:first-child tr {
+  border-collapse: collapse;
+  border-bottom: 2.5px solid rgba(0, 5, 117, 0.8);
+  border-top: 5.5px solid rgba(0, 5, 117, 0.8);
+}
+
+article[role='EJE'] table > tbody tr:first-child {
+  border-collapse: collapse;
+  border-top: 5.5px solid rgba(12, 107, 197, 1);
+}
+
+*/ article[role='JME'] table > tbody tr:first-child {
+  border-collapse: collapse;
+  border-top: 5.5px rgba(111, 47, 110, 1);
+}
+
+article[role='ECC'] table > tbody tr:first-child {
+  border-collapse: collapse;
+  border-top: 5.5px solid rgba(25, 101, 116, 1);
+}
+
+article[role='VB'] table > tbody tr:first-child {
+  border-collapse: collapse;
+  border-top: 5.5px solid rgba(25, 101, 116, 1);
+}
+
+article[role='JOE'] table > tbody tr:first-child {
+  border-collapse: collapse;
+  border-top: 5.5px solid rgba(0, 5, 117, 0.8);
+}
+
+article[role='ERC'] table > tbody tr:first-child {
+  border-collapse: collapse;
+  border-top: 5.5px solid rgba(0, 5, 117, 0.8);
+}
+
+article table > thead:first-child tr {
+  border-collapse: collapse;
+  border-bottom: 1.5px solid #000;
+}
+
+article table > thead > tr {
+  border-bottom: 1.5px solid #000;
+  border-top: 1.5px solid #000;
+  border-collapse: collapse;
+  font-size: 8.5pt;
+}
+
+tr > td:first-of-type {
+  text-align: left !important;
+}
+
+article > table {
+  width: 100%;
+  display: table;
+  text-indent: 0pt;
+  border: 0px;
+  border-bottom: 1.5px solid #000;
+  border-top: 1.5px solid #000;
+  text-align: initial;
+  margin-top: 15pt;
+}
+
+td[colspan='2'] {
+  text-align: center !important;
+  font-size: 8.5pt;
+}
+
+para[role='bib_text'] {
+  display: -webkit-box;
+  margin-left: 11pt;
+  text-indent: -11pt !important;
+  font-size: 9pt;
+}
+
+para[role='bib_text']::first-line {
+  text-indent: -11pt !important;
+}
+
+bibliomixed {
+  margin-left: 4pt;
+  text-indent: -1pt !important;
+  font-size: 9pt;
+  margin-top: 3pt;
+}
+
+bibliomixed::first-line {
+  text-indent: -11pt !important;
+}
+
+chapter ul {
+  -webkit-padding-start: 33px !important;
+}
+
+chapter ol {
+  -webkit-padding-start: 57px !important;
+}
+
+chapter li para figure1 {
+  margin-left: -10pt;
+}
+
+article para[role~='cont'].show_para:after {
+  content: '¶';
+}
+
+.show_para:after {
+  cursor: text;
+  content: '¶';
+}
+
+article para[role~='break']:after {
+  content: none !important;
+}
+
+fig label1::after {
+  content: none !important;
+}
+
+table1 label1::after {
+  content: none !important;
+}
+
+bibliomixed title1:after {
+  content: none !important;
+}
+
+article para[role~='cont'].hidden_para:after {
+  content: none !important;
+}
+
+.hidden_para:after {
+  cursor: text;
+  content: none !important;
+}
+
+poem > line {
+  display: block;
+  margin-top: 10pt;
+  font-size: 10pt;
+}
+
+poem > line:after {
+  content: '¶';
+}
+
+poem > poemsource:after {
+  content: '¶';
+}
+
+poem > poemsource {
+  display: block;
+  text-align: right;
+  margin-top: 6pt;
+  margin-bottom: 6pt;
+  margin-right: 120pt !important;
+}
+
+poem {
+  margin-top: 21pt;
+  margin-bottom: 15pt;
+  display: block;
+  margin-left: 22pt;
+}
+
+poem > title1 {
+  margin-top: 9pt;
+  margin-bottom: 9pt;
+}
+
+table-wrap > label1 {
+  display: inline-block;
+  margin-top: 6pt !important;
+  font-size: 11pt;
+}
+
+table-wrap {
+  display: block;
+  margin-top: 10pt;
+  margin-bottom: 5pt;
+}
+
+table-wrap > caption1 > p1 {
+  display: inline !important;
+  margin-left: 2pt !important;
+  font-size: 11pt;
+  line-height: 2.3;
+}
+
+table-wrap > table,
+table-wrap > tgroup > table {
+  margin-top: 6pt;
+  width: 100%;
+}
+
+article[role='REP'] table-wrap > table {
+  margin-top: 6pt;
+  border-bottom: 1.5px solid #000;
+  border-top: 1.5px solid #000;
+}
+
+table1 {
+  display: block !important;
+}
+
+tblfn {
+  margin-bottom: 10pt !important;
+  display: block;
+  font-weight: bold;
+}
+
+tblsource {
+  margin-bottom: 10pt !important;
+  display: block;
+  font-weight: bold;
+}
+
+article > para > table1 {
+  text-indent: 0pt !important;
+}
+
+section1 > para > table1 {
+  text-indent: 0pt !important;
+}
+
+line:after {
+  content: '\A';
+  white-space: pre;
+}
+
+speaker {
+  display: inline-block;
+  margin-top: 4pt;
+  margin-left: -11pt;
+}
+
+dialogue > line {
+  text-indent: 0pt !important;
+  margin-left: 1pt;
+  display: inline;
+  margin-top: 0pt;
+  font-size: 10.5pt;
+}
+
+dialogue {
+  display: block;
+  margin-left: 10pt;
+}
+
+ref > source1 {
+  display: inline-block;
+  text-align: right;
+}
+
+info1 > title1 {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 23pt;
+  text-decoration: none;
+  font-variant: normal;
+  line-height: 1.14;
+  text-align: center;
+  text-indent: 0px;
+  display: block;
+  margin-bottom: 30pt;
+  margin-top: 50pt;
+}
+
+info1 > title2 {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 27pt;
+  text-decoration: none;
+  font-variant: normal;
+  line-height: 1.14;
+  text-align: center;
+  color: #000000;
+  text-indent: 0px;
+  margin: 2em 0em 0em 0em;
+  display: block;
+}
+
+info1 > subtitle1 {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20pt;
+  text-decoration: none;
+  font-variant: normal;
+  line-height: 1.25;
+  text-align: center;
+  color: #000000;
+  text-indent: 0px;
+  margin: 1em 0em 0em 0em;
+  display: block;
+  margin-bottom: 10pt;
+}
+
+subtitle1 {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20pt;
+  text-decoration: none;
+  font-variant: normal;
+  line-height: 1.25;
+  text-align: center;
+  color: #000000;
+  text-indent: 0px;
+  margin: 1em 0em 0em 0em;
+  display: block;
+  margin-bottom: 15pt;
+}
+
+chapter[role='chapter'] > info1 > author {
+  font-style: normal;
+  font-size: 16pt;
+  text-decoration: none;
+  font-variant: normal;
+  line-height: 1.29;
+  text-align: center;
+  color: #000000;
+  text-indent: 0px;
+  margin: 2em 0em 10em 0em;
+  margin-bottom: 10pt;
+}
+
+chapter[role='prelims'] > info1 > author {
+  font-style: normal;
+  font-size: 16pt;
+  text-decoration: none;
+  font-variant: normal;
+  line-height: 1.29;
+  text-align: center;
+  color: #000000;
+  text-indent: 0px;
+  margin: 2em 0em 10em 0em;
+  margin-bottom: 10pt;
+}
+
+info1 {
+  text-align: center;
+  display: block;
+}
+
+contrib-group > contrib:first-of-type:before {
+  content: '';
+  white-space: pre;
+}
+
+contrib-group > contrib:before {
+  white-space: pre;
+}
+
+contrib-group > contrib {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+contrib-group {
+  margin-top: 30pt !important;
+}
+
+kwd-group > kwd1:first-of-type:before {
+  content: '';
+  white-space: pre;
+}
+
+biblioset phrase:first-of-type:before {
+  content: ' ';
+  background-color: black;
+  white-space: pre;
+  margin-bottom: 2pt;
+  height: 0.5pt;
+  display: block;
+  border-bottom: 1.5px solid #000 !important;
+}
+
+bibliomisc {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 9pt;
+  text-decoration: none;
+  font-variant: normal;
+  line-height: 1.11;
+  text-align: center;
+  color: #000000;
+  text-indent: 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
+  display: block;
+}
+
+bibliomisc:after {
+  content: '¶';
+}
+
+cover > bibliolist > bibliomixed > bibliomisc {
+  display: block !important;
+  font-size: 12pt;
+}
+
+phrase {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 9pt;
+  text-decoration: none;
+  font-variant: normal;
+  line-height: 1.11;
+  text-align: left;
+  color: #000000;
+  text-indent: 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: block;
+}
+
+phrase:after {
+  content: '¶';
+}
+
+biblioset phrase:first-of-type {
+  margin-top: 21pt !important;
+}
+
+biblioset phrase:last-of-type {
+  margin-top: 13pt !important;
+}
+
+legalnotice > para {
+  font-size: 9pt;
+  margin-top: 7pt;
+  display: block;
+  text-align: left;
+  text-indent: 0pt;
+}
+
+legalnotice > para:after {
+  content: '¶';
+}
+
+address {
+  font-size: 9pt;
+  text-decoration: none;
+  font-variant: normal;
+  line-height: 1.11;
+  text-align: left;
+  color: #000000;
+  text-indent: -1px;
+  display: block;
+}
+
+copyright {
+  text-align: right;
+  display: block;
+}
+
+notes > pp1 {
+  text-align: right;
+  display: block;
+  font-size: 9pt;
+  margin-top: 55pt;
+  font-weight: bold;
+  margin-block-end: 0em !important;
+}
+
+notes > doi {
+  text-align: right;
+  display: block;
+}
+
+notes > copyright {
+  text-align: right;
+  display: block;
+}
+
+notes > subjecteditor {
+  text-align: right;
+  display: block;
+}
+
+acknowledgements > title1 {
+  font-size: 25pt;
+  display: block;
+  text-align: center;
+}
+
+acknowledgements > para {
+  font-size: 11pt;
+  margin-top: 3pt;
+  display: block;
+}
+
+acknowledgements > para:after {
+  content: '¶';
+}
+
+subtitle {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16pt;
+  text-decoration: none;
+  font-variant: normal;
+  line-height: 1.25;
+  text-align: center;
+  color: #000000;
+  text-indent: 0px;
+  margin: 1em 0em 0em 0em;
+  display: block;
+}
+
+bibliomixed title1:after {
+  content: none;
+}
+
+address city:after {
+  content: none !important;
+}
+
+preface {
+  display: block;
+  margin-top: 27pt;
+  margin-bottom: 46pt;
+}
+
+preface > title1 {
+  display: block;
+  font-size: 30pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+preface > para {
+  display: block;
+  text-indent: 1pt;
+  margin-top: 4pt;
+}
+
+toc > title1 {
+  display: block;
+  text-align: center;
+  font-size: 29pt;
+}
+
+toc > para {
+  display: block;
+  text-indent: 3pt;
+  margin-top: 4pt;
+}
+
+chapter li.nostyle {
+  list-style-type: none;
+}
+
+chapter td > ul {
+  -webkit-padding-start: 0px !important;
+}
+
+inline-formula > inline-graphic {
+  width: 20pt !important;
+  display: inline !important;
+  margin-top: 0pt !important;
+}
+
+equation > mediaobject > imageobject > img {
+  width: 125pt !important;
+}
+
+footnote1 superscript {
+  color: blue;
+}
+
+epigraph > para {
+  margin-left: 85pt;
+  margin-top: 30pt;
+  margin-bottom: 14pt;
+  margin-right: 136pt;
+}
+
+attribution {
+  text-align: right;
+  display: block;
+  margin-right: 135pt;
+}
+
+para[role='symbol_para'] {
+  text-align: center;
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+}
+
+para[role='specialpara'] {
+  text-indent: 1pt;
+  margin-top: 5pt;
+}
+
+dedication {
+  text-align: center;
+  font-size: 12pt;
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+  font-style: italic;
+}
+
+info1 > author > personname > surname:before {
+  white-space: pre;
+  content: ' ';
+}
+
+tp {
+  display: block;
+}
+
+query .fa-question-circle-o {
+  color: red !important;
+}
+
+informalfigure > mediaobject > imageobject > img {
+  width: 16%;
+  margin-top: -7px;
+}
+
+glossterm {
+  display: inline;
+}
+
+glossentry {
+  display: block;
+}
+
+glossentry {
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none;
+  margin-left: 35pt;
+}
+
+glossentry > glossterm {
+  overflow: hidden;
+}
+
+glossentry > glossdef {
+  overflow: hidden;
+  font-size: 11pt;
+  display: block;
+  text-indent: 11pt;
+}
+
+glossentry > glossdef:before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content: '  ';
+}
+
+glossentry > glossterm:before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content: '  ';
+}
+
+glossentry glossterm {
+  width: 113pt;
+  float: left;
+  padding-right: 0.33em;
+  background: white;
+  overflow: hidden;
+  font-size: 10.5pt;
+}
+
+glossentry glossterm + glossdef {
+  width: 480pt;
+  text-indent: 1pt;
+  margin-left: 30pt;
+  float: left;
+  padding-left: 0.33em;
+  background: white;
+  font-size: 10.5pt;
+}
+
+ref-list {
+  display: block;
+  font-size: 11pt;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+
+glossdef > para {
+  display: inline;
+}
+
+abbreviation > title1 {
+  display: block;
+  font-size: 30pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 10.5pt;
+  text-align: justify;
+}
+
+sidebar {
+  display: block;
+  margin-top: 10pt;
+  margin-bottom: 14pt;
+  border-style: solid;
+}
+
+boxed-text {
+  display: block;
+  margin-top: 10pt;
+  margin-bottom: 14pt;
+  border-style: solid;
+}
+
+boxed-text > title1 {
+  display: flex;
+}
+
+boxed-text > ul {
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+boxed-text > ul > li {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+abstract1 > title1 {
+  display: block;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+article[role='ECC'] abstract1 > title1 {
+  display: block;
+  font-size: 14pt;
+  font-weight: bold;
+  color: rgba(25, 101, 116, 1);
+}
+
+article[role='VB'] abstract1 > title1 {
+  display: block;
+  font-size: 14pt;
+  font-weight: bold;
+  color: rgba(25, 101, 116, 1);
+}
+
+article[role='JME'] abstract1 > title1 {
+  display: block;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #6f2f6e;
+}
+
+article[role='JOE'] abstract1 > title1 {
+  display: block;
+  font-size: 14pt;
+  font-weight: bold;
+  color: rgba(0, 5, 117, 0.8);
+}
+
+article[role='EJE'] ref > label1:after {
+  content: '\00a0 ';
+  display: inline-block;
+}
+
+article[role='ECC'] ref > label1:after {
+  content: '\00a0 ';
+  display: inline-block;
+}
+
+article[role='VB'] ref > label1:after {
+  content: '\00a0 ';
+  display: inline-block;
+}
+
+fpage1 {
+  display: inline-block;
+}
+
+lpage1 {
+  display: inline-block;
+}
+
+lpage {
+  display: none;
+}
+
+ol[list-type='disc'],
+ul[list-type='disc'] {
+  list-style-type: disc;
+}
+
+issue1 {
+  display: inline-block;
+}
+
+volume1 {
+  display: inline-block;
+}
+
+pp1 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 10.5pt;
+  text-align: justify;
+}
+
+article[role='EJE'] table {
+  border-bottom: 5.5px solid rgba(12, 107, 197, 1);
+}
+
+article[role='EDM'] table {
+  border-bottom: 5.5px solid rgba(117, 0, 64, 0.8);
+}
+
+article[role='ERP'] table {
+  border-bottom: 5.5px solid rgb(52, 104, 107);
+}
+
+article[role='ECC'] table {
+  border-bottom: 5.5px solid rgba(25, 101, 116, 1);
+  width: 100%;
+}
+
+article[role='VB'] table {
+  border-bottom: 5.5px solid rgba(25, 101, 116, 1);
+}
+
+article[role='JOE'] table {
+  border-bottom: 5.5px solid rgba(0, 5, 117, 0.8);
+}
+
+article[role='ERC'] table {
+  border-bottom: 5.5px solid rgba(0, 5, 117, 0.8);
+}
+
+article[role='JME'] table {
+  border-bottom: 5.5px solid rgb(111, 47, 110, 1);
+}
+
+article-meta fpage {
+  display: none;
+}
+
+kwd1 {
+  display: inline;
+}
+
+disp-formula > img {
+  width: auto;
+  display: block;
+  vertical-align: middle;
+  margin: 10px auto;
+}
+
+disp-formula {
+  display: block;
+}
+
+inline-formula > img {
+  width: auto !important;
+  display: inline !important;
+  margin-top: 0pt !important;
+}
+
+article-meta > volume1 {
+  display: none;
+}
+
+ol[list-type='bullet'] {
+  list-style-type: disc;
+}
+
+ol[list-type='numeric'] {
+  list-style-type: decimal;
+}
+
+ol[list-type='upperroman'] {
+  list-style-type: upper-roman;
+}
+
+ol[list-type='lowerroman'] {
+  list-style-type: lower-roman;
+}
+
+ol[list-type='loweralpha'] {
+  list-style-type: lower-alpha;
+}
+
+ol[list-type='upperalpha'] {
+  list-style-type: upper-alpha;
+}
+
+disp-formula > label1 {
+  margin-top: 13px;
+  font-size: 15pt;
+}
+
+copyright-year {
+  display: block;
+  text-align: right;
+}
+
+copyright-holder {
+  display: none;
+}
+
+copyright-statement {
+  display: block;
+  text-align: right;
+  margin-top: 12pt;
+}
+
+history {
+  display: block;
+  text-align: right;
+  margin-bottom: 50pt;
+}
+
+subject {
+  display: block;
+  font-size: 17pt;
+  font-weight: bold;
+}
+
+date-cont {
+  display: block;
+}
+
+corresp {
+  display: inline-block;
+  margin-bottom: 14pt;
+  font-weight: bold;
+}
+
+article[role='JME'] hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 7px solid rgba(111, 47, 110, 1) !important;
+  height: 1px !important;
+  margin-bottom: 9px !important;
+}
+
+article[role='ERP'] hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 7px solid rgb(52, 104, 107) !important;
+  height: 1px !important;
+  margin-bottom: 9px !important;
+}
+
+article[role='REP'] hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid rgb(15, 18, 18) !important;
+  height: 1px !important;
+  margin-bottom: 9px !important;
+}
+
+article[role='EJE'] hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 7px solid rgba(12, 107, 197, 1) !important;
+  height: 1px !important;
+  margin-bottom: 9px !important;
+}
+
+article[role='EDM'] hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 7px solid rgba(117, 0, 64, 0.8) !important;
+  height: 1px !important;
+  margin-bottom: 9px !important;
+}
+
+article[role='ECC'] hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 7px solid rgba(25, 101, 116, 1) !important;
+  height: 1px !important;
+  margin-bottom: 9px !important;
+}
+
+article[role='JOE'] hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 7px solid rgba(0, 5, 117, 0.8) !important;
+  height: 1px !important;
+  margin-bottom: 9px !important;
+}
+
+article[role='ERC'] hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 7px solid rgba(0, 5, 117, 0.8) !important;
+  height: 1px !important;
+  margin-bottom: 9px !important;
+}
+
+table-wrap-foot fn pp1 {
+  display: block;
+  font-size: 9pt;
+}
+
+kwd-group > title1 {
+  font-weight: bold;
+}
+
+jou[role='JME'] {
+  display: block;
+  background-color: #6f2f6e;
+  margin-left: -57px;
+  margin-right: auto;
+}
+
+vol {
+  display: block;
+  text-align: right;
+}
+
+iss {
+  display: block;
+  text-align: right;
+}
+
+td[colspan] > tp {
+  text-align: center;
+}
+
+spellingerrors {
+  display: none;
+}
+
+oa {
+  font-size: 16px;
+}
+
+related-object {
+  display: block;
+  font-size: 12px;
+}
+
+article table > tbody > tr > td {
+  font-size: 9pt;
+  font-style: normal;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  padding-left: 5pt;
+  text-align: left;
+  border-style: dashed;
+}
+
+article-meta title-group article-title,
+aff,
+abstract,
+ack,
+ref-list {
+  display: block;
+}
+
+ref,
+contrib-group,
+author-notes,
+history {
+  display: block;
+  margin-top: 10px;
+}
+
+img.new_figureinsert {
+  width: 70%;
+}
+
+sc {
+  font-variant: small-caps !important;
+}
+
+td span {
+  font-size: 9pt !important;
+}
+
+underline {
+  text-decoration: underline;
+}
+
+sec[sec-type='box'] > title1 {
+  font-size: 12pt;
+  margin-top: 1pt;
+  margin-bottom: 15pt;
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left !important;
+}
+
+sec > sec > sec[sec-type='box'] > title1 {
+  font-size: 12pt;
+  margin-top: 1pt;
+  margin-bottom: 15pt;
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left !important;
+}
+
+td[colspan] > tp {
+  text-align: center;
+}
+
+spellingerrors {
+  display: none;
+}
+
+oa {
+  font-size: 16px;
+}
+
+related-object {
+  display: block;
+  font-size: 12px;
+}
+
+#content table,
+th,
+td {
+  border-collapse: collapse;
+  border: solid 1px #ccc;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+article table > tbody > tr > td {
+  font-size: 9pt;
+  font-style: normal;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+  padding-left: 5pt;
+  text-align: left;
+  border-style: dashed;
+}
+
+article-meta title-group article-title,
+aff,
+abstract,
+ack,
+ref-list {
+  display: block;
+}
+
+ref,
+contrib-group,
+author-notes,
+history {
+  display: block;
+  margin-top: 10px;
+}
+
+pub-date > month > year {
+  display: none;
+}
+
+issue {
+  display: none;
+}
+
+jou[role='RAF'] > name1 {
+  font-size: 50pt;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  color: white;
+  margin-top: -10px;
+  height: 191px;
+  padding-top: 30pt;
+  background-color: green;
+}
