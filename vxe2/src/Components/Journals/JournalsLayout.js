@@ -71,27 +71,28 @@ class Journals extends React.Component {
   }
 
   setRightSiderHeight() {
-    var doc = document;
-    var windowHeight = window.innerHeight;
-    var header1Height = doc.querySelector('.h-r-1').offsetHeight;
-    var mainContainer = windowHeight;
-    var searchHeight = doc.querySelector('.cstm-adv-srch-bdy')
-      ? doc.querySelector('.cstm-adv-srch-bdy').offsetHeight
-      : 0;
-    var editorToolsHeight = doc.querySelector('.editor-tools').offsetHeight;
-    doc.querySelector('.main-container').style.height = mainContainer + 'px';
-    doc.querySelector('.thumb-pdf').style.height =
-      mainContainer - (searchHeight + 55) + 'px';
-    doc.getElementById('textbody').style.height =
-      mainContainer - (editorToolsHeight + 55) + 'px';
-    doc.querySelector('.track-panel').style.height =
-      mainContainer - (header1Height + 55) + 'px';
-    doc.querySelector('.track-changes-list').style.height =
-      mainContainer - (header1Height + 202) + 'px';
-    //Disabled default spell checker
-    document
-      .querySelectorAll('#content *')
-      .forEach((x) => x.setAttribute('spellcheck', 'false'));
+    // MV changes
+    // var doc = document;
+    // var windowHeight = window.innerHeight;
+    // var header1Height = doc.querySelector('.h-r-1').offsetHeight;
+    // var mainContainer = windowHeight;
+    // var searchHeight = doc.querySelector('.cstm-adv-srch-bdy')
+    //   ? doc.querySelector('.cstm-adv-srch-bdy').offsetHeight
+    //   : 0;
+    // var editorToolsHeight = doc.querySelector('.editor-tools').offsetHeight;
+    // doc.querySelector('.main-container').style.height = mainContainer + 'px';
+    // doc.querySelector('.thumb-pdf').style.height =
+    //   mainContainer - (searchHeight + 55) + 'px';
+    // doc.getElementById('textbody').style.height =
+    //   mainContainer - (editorToolsHeight + 55) + 'px';
+    // doc.querySelector('.track-panel').style.height =
+    //   mainContainer - (header1Height + 55) + 'px';
+    // doc.querySelector('.track-changes-list').style.height =
+    //   mainContainer - (header1Height + 202) + 'px';
+    // //Disabled default spell checker
+    // document
+    //   .querySelectorAll('#content *')
+    //   .forEach((x) => x.setAttribute('spellcheck', 'false'));
   }
 
   trackListCount() {
@@ -120,8 +121,9 @@ class Journals extends React.Component {
     this.setRightSiderHeight();
     window.Journals = this;
     window.addEventListener('resize', this.setRightSiderHeight.bind(this));
-    this.trackInit();
-    this.trackArtMeta();
+    // MV changes
+    // this.trackInit();
+    // this.trackArtMeta();
     this.getChapterList();
     setInterval(() => {
       this.oxygenLog();

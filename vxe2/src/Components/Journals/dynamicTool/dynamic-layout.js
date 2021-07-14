@@ -13,7 +13,7 @@ const DynamicTool = (props) => {
       <DynamicHeader
         permissions={{
           ...props.permissions.pdf_upload_and_download,
-          submit_button: props.permissions.editor_buttons.submit_button,
+          // submit_button: props.permissions.editor_buttons.submit_button, MV changes
           oup: props.permissions.oup,
         }}
         selectedChapterXmlName={props.selectedChapterXmlName}
@@ -27,13 +27,14 @@ const DynamicTool = (props) => {
           setClass={props.showOrHideStyleEdit}
           styleEdit={props.showStyleEditor}
         />
-        <ContentValidation
+        {/* MV changes */}
+        {/* <ContentValidation
           setClass={props.showOrHideContentValidation}
           contentValidationVal={props.contentValidationVal}
           contentVali={props.showContentValidation}
           selectedChapterXmlName={props.selectedChapterXmlName}
           contentValidationProp={props.contentValidationProp}
-        />
+        /> */}
         <Consistency
           selectedChapterXmlName={props.selectedChapterXmlName}
           setClass={props.showOrHideConsistency}
@@ -49,11 +50,12 @@ const DynamicTool = (props) => {
           trackSpell={props.trackSpellData}
         />
       </div>
-      <TrackPanel
+      {/* MV changes */}
+      {/* <TrackPanel
         permissions={props.permissions.track_changes}
         trackingContent={props.trackData}
         trackCounts={props.trackCount}
-      />
+      /> */}
     </div>
   );
 };
